@@ -9,6 +9,10 @@ This is a simple chatbot built using **React** that utilizes the **Context API**
 - **Conditional Rendering** for displaying responses dynamically
 - **React Icons** for enhancing the UI
 
+🔗 **Live Demo:** [AI Chatbot](https://vishal-770.github.io/AI-APP/)
+
+⚠️ **Note:** This page is not complete. Some functions will be added, and the page will be made mobile responsive.
+
 ---
 
 ## Technologies Used
@@ -98,8 +102,7 @@ const [resultData, setResultData] = useState("");
 - Implement local storage for saving chat history
 - Add speech-to-text functionality
 - Enhance UI with animations and themes
+- Make the page fully mobile responsive
 
 ---
-
-##
 
