@@ -7,6 +7,8 @@ import "./Main.css";
 import SearchBar from "./SearchBar";
 import { Context } from "../Context/Context";
 import Loader from "./Loader";
+import dpImage from "./dp.jpeg";
+import logo from "./logo.webp";
 const Main = () => {
   const { recentPrompt, showResult, loading, resultData, setInput, input, onSent } =
     useContext(Context);
@@ -16,7 +18,7 @@ const Main = () => {
       <div className="navbar">
         <h1 className="Heading"> SentienceX </h1>
 
-        <img src="src\assets\dp.jpeg"></img>
+        <img src={dpImage}></img>
       </div>
       <div className="main-container">
         {!showResult ? (
@@ -64,7 +66,7 @@ const Main = () => {
         ) : (
           <div className="result">
             <div className="result-title">
-              <img className="result-img" src="src\logo.webp"></img>
+              <img className="result-img" src={logo}></img>
               <p>{recentPrompt}</p>
             </div>
 
